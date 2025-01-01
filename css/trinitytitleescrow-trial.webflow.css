@@ -100,7 +100,7 @@ h2 {
 	line-height: 1.1em;
 	text-transform: none;
 	letter-spacing: 1px;
-	text-decoration: underline 2px;
+	text-decoration: underline;
 }
 
 h3 {
