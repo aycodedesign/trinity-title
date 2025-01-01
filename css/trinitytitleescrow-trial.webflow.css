@@ -387,7 +387,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-	color: var(--snow);
+	color: var(--titles);
 }
 
 .nav-link.small {
