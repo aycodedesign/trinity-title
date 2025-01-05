@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate required fields
     if (!empty($firstname) && !empty($lastname) && !empty($email) && !empty($message)) {
         // Email setup
-        $to = "aycodedesign@gmail.com";
+        $to = "info@trinitytitleescrow.com";
         $subject = "New Form Submission from $email";
         $body = "Name: $firstname $lastname\nEmail: $email\nPhone Number: $phonenumber\nMessage:\n$message\n";
         $headers = "From: no-reply@yourdomain.com\r\nReply-To: $email\r\n";
