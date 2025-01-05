@@ -1709,7 +1709,7 @@ figcaption {
 .container-550px---left {
 	flex-flow: column;
 	flex: 1;
-	max-width: 410px;
+	max-width: 500px;
 	display: block;
 }
 
