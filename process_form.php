@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize form inputs
     $firstname = htmlspecialchars(trim($_POST['First-Name']));
@@ -10,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate required fields
     if (!empty($firstname) && !empty($lastname) && !empty($email) && !empty($message)) {
         // Email setup
-        $to = "info@trinitytitleescrow.com";
+        $to = "info@trinitytitle.com";
         $subject = "New Form Submission from $email";
         $body = "Name: $firstname $lastname\nEmail: $email\nPhone Number: $phonenumber\nMessage:\n$message\n";
         $headers = "From: no-reply@yourdomain.com\r\nReply-To: $email\r\n";
