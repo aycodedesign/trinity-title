@@ -1,6 +1,8 @@
 # robots.txt for https://trinitytitleescrow.com
 
 User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
 Disallow: /legal/
 
 Sitemap: https://trinitytitleescrow.com/sitemap.xml
